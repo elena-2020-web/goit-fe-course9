@@ -98,7 +98,6 @@ a {
   letter-spacing: 1px;
   display: block;
   width: max-content;
-  /* margin: 0 auto; */
 }
 .title {
   font-size: 1.875rem;
@@ -139,6 +138,7 @@ a {
   font-weight: bold;
   line-height: 1.2;
   margin-bottom: 14px;
+  letter-spacing: 1px;
 }
 .partner-list-items {
   max-width: 220px;
@@ -224,16 +224,9 @@ a {
   }
 }
 @media (min-width: 768px) {
-  /* .container {
-    max-width: 748px;
-  } */
   .navigation {
-    /* display: flex; */
-    /* flex-direction: row-reverse; */
-    /* justify-content: space-between; */
     max-width: 690px;
     margin: 0 auto;
-    /* align-items: center; */
     padding-bottom: 140px;
   }
   .slider {
@@ -283,10 +276,7 @@ a {
     margin-bottom: 56px;
   }
 }
-@media (min-width: 960px) {
-  /* .container {
-    max-width: 940px;
-  } */
+@media (min-width: 992px) {
   .slider {
     background-image: url(../img/desktop/foto-slider-d.png);
     padding-top: 36px;
